@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url("peribacalari_ve_gunbatimi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+    font-family:'Courier New', Courier, monospace;
+    height: 50vh;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background:rgba(red, green, blue, alpha);
+    background:rgba(0, 0, 0, 0.2);
+    
+}
+.header{
+    margin-top: 70px;
+    padding:50px 20px 30px 20px;
+}
+.header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rm ;
+    color: #3e62a5;
+    text-shadow: 1px 1px 1px 3px rgb(0,0,0,0.9);
+}
+
+.header input {
+    width: 100px;
+    padding: 10px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom:  2px solid #6d7fa0;
+    text-align: center;
+    text-decoration: none;
+    font-size:  20px;
+    color: #3e62a5;
+    
+}
+.city{
+    font-size:  35px;
+    font-weight:  500;
+    margin-bottom: 10px;
+}
+
+.temp{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.desc{
+    font-size: 25px;
+    font-style:unset;
+    text-shadow: 1px 3px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+
+.minmax{
+    font-size: 24px;
+}
+
+.button{
+    background-color: #9ba4b4;
+    border: none;
+    color: #f0e6e6;
+    text-align: 3px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
